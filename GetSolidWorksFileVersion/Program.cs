@@ -10,7 +10,6 @@ namespace GetSolidWorksFileVersion
     {
         static void Main(string[] args)
         {
-
             string docPath;
             bool quietMode;
             switch (args.Length)
@@ -41,7 +40,7 @@ namespace GetSolidWorksFileVersion
 
 
             SwDMClassFactory dmClassFact = new SwDMClassFactory();
-            SwDMApplication dmDocManager = dmClassFact.GetApplication("<Your License Key Here>") as SwDMApplication;
+            SwDMApplication dmDocManager = dmClassFact.GetApplication("C3021E19A05D3A4B15A8D40AD7B0474E7FD073393806CD0E") as SwDMApplication;
             SwDmDocumentOpenError OpenError;
             SwDMDocument dmDoc = dmDocManager.GetDocument(docPath, docType, true, out OpenError) as SwDMDocument;
 
@@ -54,15 +53,17 @@ namespace GetSolidWorksFileVersion
                     fileVersion = dmDoc.GetVersion();
                     if (fileVersion == 0)
                     {
-                        Console.Write(docPath + "\t  Build " + fileVersion + ".  This probably isn't a SolidWorks file or it is severely damaged.");
+                        Console.WriteLine(docPath + "\t  Build " + fileVersion + ".  This probably isn't a SolidWorks file or it is severely damaged.");
                         return;
                     }
-                    Console.Write(docPath + "\t SolidWorks Build " + fileVersion);
+                    Console.WriteLine(docPath + "\t SolidWorks Build " + fileVersion);
                 }
                 catch (Exception e)
                 {
-                    Console.Write(docPath + "\t" + "Could not get file version. " + e.Message + e.StackTrace);
+                    Console.WriteLine(docPath + "\t" + "Could not get file version. " + e.Message + e.StackTrace);
+                    return;
                 }
+                dmDoc.CloseDoc();
             }
             else
             {
@@ -86,8 +87,6 @@ namespace GetSolidWorksFileVersion
                         break;
                 }
             }
-            dmDoc.CloseDoc();
-
 
         }
 
@@ -152,7 +151,7 @@ SolidWorks 2009	    4100
 SolidWorks 2010	    4400
 SolidWorks 2011	    4700
 
-Version 2011-Sept-26 21:48
+Version 2011-Sept-26 22:42
 Written and Maintained by Jason Nicholson
 http://github.com/jasonnicholson/GetSolidWorksFileVersion");
         }
