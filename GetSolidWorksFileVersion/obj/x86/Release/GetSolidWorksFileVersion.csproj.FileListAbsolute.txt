@@ -1,0 +1,7 @@
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\bin\Release\GetSolidWorksFileVersion.exe
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\bin\Release\GetSolidWorksFileVersion.pdb
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Release\Interop.SwDocumentMgr.dll
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Release\GetSolidWorksFileVersion.csproj.ResolveComReference.cache
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Release\GetSolidWorksFileVersion.exe
+C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Release\GetSolidWorksFileVersion.pdb
