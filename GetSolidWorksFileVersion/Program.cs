@@ -40,7 +40,7 @@ namespace GetSolidWorksFileVersion
 
 
             SwDMClassFactory dmClassFact = new SwDMClassFactory();
-            SwDMApplication dmDocManager = dmClassFact.GetApplication("C3021E19A05D3A4B15A8D40AD7B0474E7FD073393806CD0E") as SwDMApplication;
+            SwDMApplication dmDocManager = dmClassFact.GetApplication("<Your License Key Here>") as SwDMApplication;
             SwDmDocumentOpenError OpenError;
             SwDMDocument dmDoc = dmDocManager.GetDocument(docPath, docType, true, out OpenError) as SwDMDocument;
 
