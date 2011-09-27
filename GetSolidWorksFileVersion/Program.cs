@@ -40,7 +40,7 @@ namespace GetSolidWorksFileVersion
 
 
             SwDMClassFactory dmClassFact = new SwDMClassFactory();
-            SwDMApplication dmDocManager = dmClassFact.GetApplication("<Your License Key Here>") as SwDMApplication;
+            SwDMApplication dmDocManager = dmClassFact.GetApplication("<Your LIcense Key Here>") as SwDMApplication;
             SwDmDocumentOpenError OpenError;
             SwDMDocument dmDoc = dmDocManager.GetDocument(docPath, docType, true, out OpenError) as SwDMDocument;
 
@@ -126,12 +126,21 @@ namespace GetSolidWorksFileVersion
 
             Console.WriteLine(@"
 
-Returns the Version of SolidWorks Version.
+Returns the Version of a SolidWorks file.
+
 Syntax 
     [option] [SolidWorksFilePath]
 
 Output
     ""SolidWorksFilePath""  BuildNumber
+
+Options
+    /q      Quiet mode.  Suppresses the current message.  It does
+            not suppress the one line error messages related to problems
+            opening SolidWorks Files.  Quiet mode is useful for batch files
+            when you are directing the output to a file.  The main error 
+            message is suppressed but you are still informed about problems 
+            opening files.
 
 Some SolidWorks Build Numbers:
 SolidWorks 97+      629
@@ -151,7 +160,7 @@ SolidWorks 2009	    4100
 SolidWorks 2010	    4400
 SolidWorks 2011	    4700
 
-Version 2011-Sept-26 22:42
+Version 2011-Sept-27 8:51
 Written and Maintained by Jason Nicholson
 http://github.com/jasonnicholson/GetSolidWorksFileVersion");
         }
