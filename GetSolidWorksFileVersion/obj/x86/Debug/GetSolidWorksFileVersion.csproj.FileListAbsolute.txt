@@ -5,3 +5,10 @@ C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSo
 C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\GetSolidWorksFileVersion.exe
 C:\Documents and Settings\IE User\my documents\visual studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\GetSolidWorksFileVersion.pdb
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\bin\Debug\GetSolidWorksFileVersion.exe
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\bin\Debug\GetSolidWorksFileVersion.pdb
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\Interop.SwDocumentMgr.dll
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\GetSolidWorksFileVersion.csproj.ResolveComReference.cache
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\GetSolidWorksFileVersion.exe
+C:\Users\jnicholson\Documents\Visual Studio 2010\Projects\GetSolidWorksFileVersion\GetSolidWorksFileVersion\obj\x86\Debug\GetSolidWorksFileVersion.pdb

@@ -40,7 +40,7 @@ namespace GetSolidWorksFileVersion
 
 
             SwDMClassFactory dmClassFact = new SwDMClassFactory();
-            SwDMApplication dmDocManager = dmClassFact.GetApplication("<Your LIcense Key Here>") as SwDMApplication;
+            SwDMApplication dmDocManager = dmClassFact.GetApplication("<Insert Your Key Here>") as SwDMApplication;
             SwDmDocumentOpenError OpenError;
             SwDMDocument dmDoc = dmDocManager.GetDocument(docPath, docType, true, out OpenError) as SwDMDocument;
 
@@ -78,7 +78,7 @@ namespace GetSolidWorksFileVersion
                         inputError(quietMode);
                         break;
                     case SwDmDocumentOpenError.swDmDocumentOpenErrorNonSW:
-                        Console.Write(docPath + "\tNon-SolidWorks file was opened");
+                        Console.WriteLine(docPath + "\tNon-SolidWorks file was opened");
                         inputError(quietMode);
                         break;
                     default:
@@ -143,6 +143,9 @@ Options
             opening files.
 
 Some SolidWorks Build Numbers:
+SolidWorks 95	    44
+SolidWorks 96	    243
+SolidWorks 97	    483
 SolidWorks 97+      629
 SolidWorks 98	    817
 SolidWorks 98+      1008
@@ -160,7 +163,7 @@ SolidWorks 2009	    4100
 SolidWorks 2010	    4400
 SolidWorks 2011	    4700
 
-Version 2011-Sept-27 8:51
+Version 2011-Oct-04 10:14
 Written and Maintained by Jason Nicholson
 http://github.com/jasonnicholson/GetSolidWorksFileVersion");
         }
